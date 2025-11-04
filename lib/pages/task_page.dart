@@ -38,7 +38,7 @@ class _DetailTaskPageState extends State<DetailTaskPage> {
       avatarPath: "assets/images/avatar-male.png",
     ),
     Activity(
-      author: "Rahmat Intern",
+      author: "Rahmat",
       timestamp: "10:08 AM",
       date: DateTime(2025, 11, 4),
       content:
