@@ -195,7 +195,7 @@ class _DetailTaskPageState extends State<DetailTaskPage> {
                     children: [
                       CircleAvatar(
                         radius: 16,
-                        backgroundImage: AssetImage("assets/images/avatar-male.png"),
+                        backgroundImage: AssetImage("assets/images/avatar.png"),
                       ),
                       const SizedBox(width: 8),
                       Column(
