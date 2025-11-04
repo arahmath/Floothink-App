@@ -332,7 +332,7 @@ class HomePage extends StatelessWidget {
                         onTap: () {
                           Navigator.push(
                             context,
-                            MaterialPageRoute(builder: (context) => TaskPage(status: task["status"],)),
+                            MaterialPageRoute(builder: (context) =>DetailTaskPage()),
                           );
                         },
                         borderRadius: BorderRadius.circular(12),
