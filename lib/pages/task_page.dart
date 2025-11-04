@@ -35,7 +35,7 @@ class _DetailTaskPageState extends State<DetailTaskPage> {
       content:
           "Lanjut Tutorial Flutter\n • Date Format\n • Custom AppBar\n • Custom TabBar",
       duration: const Duration(minutes: 45),
-      avatarPath: "assets/images/user1.png",
+      avatarPath: "assets/images/avatar-male.png",
     ),
     Activity(
       author: "Rahmat Intern",
@@ -44,7 +44,7 @@ class _DetailTaskPageState extends State<DetailTaskPage> {
       content:
           "Mempelajari Management State\n • setState() dan kapan menggunakannya\n • InheritedWidget & Provider dasar",
       duration: const Duration(minutes: 60),
-      avatarPath: "assets/images/user1.png",
+      avatarPath: "assets/images/avatar-male.png",
     ),
   ];
 
@@ -105,7 +105,7 @@ class _DetailTaskPageState extends State<DetailTaskPage> {
                       date: DateTime.now(),
                       content: content,
                       duration: Duration(minutes: durationMinutes),
-                      avatarPath: "assets/images/user1.png", // asset avatar
+                      avatarPath: "assets/images/avatar-male.png", // asset avatar
                     ),
                   );
                 });
@@ -195,7 +195,7 @@ class _DetailTaskPageState extends State<DetailTaskPage> {
                     children: [
                       CircleAvatar(
                         radius: 16,
-                        backgroundImage: AssetImage("assets/images/user1.png"),
+                        backgroundImage: AssetImage("assets/images/avatar-male.png"),
                       ),
                       const SizedBox(width: 8),
                       Column(
@@ -237,7 +237,7 @@ class _DetailTaskPageState extends State<DetailTaskPage> {
                           const SizedBox(height: 6),
                           CircleAvatar(
                             radius: 16,
-                            backgroundImage: AssetImage("assets/images/user1.png"),
+                            backgroundImage: AssetImage("assets/images/avatar-male.png"),
                           ),
                         ],
                       ),
